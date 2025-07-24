@@ -3,7 +3,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = "7893013232:AAGezudHgCxtjCP9UcHIi5N3KTpHPbrnTig"
+BOT_TOKEN = ""
 BASE_FILE_URL = f"https://api.telegram.org/file/bot{BOT_TOKEN}"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
